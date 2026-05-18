@@ -1,0 +1,58 @@
+.notifications-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 120px);
+}
+
+.notifications-header {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.notifications-tabs {
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+
+.notifications-tabs button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.notifications-tabs .active {
+  border-bottom: 2px solid #1da1f2;
+  font-weight: 600;
+}
+
+.notifications-list {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.notification-item {
+  padding: 12px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.notification-user {
+  font-size: 14px;
+}
+
+.handle {
+  color: #888;
+  font-size: 13px;
+}
+
+.notification-text {
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.notification-time {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #999;
+}
