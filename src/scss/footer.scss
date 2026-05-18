@@ -1,0 +1,13 @@
+.footer {
+    &__nav {
+        &__list {
+            display: flex;
+            gap: 1rem;
+            justify-content: space-between;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 2.5rem;
+            padding-top: 1rem;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+@use "./variables" as *;
+@use "header.scss";
+@use "footer.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.active {
+    path {
+        fill: #4C9EEB;
+    }
+}
